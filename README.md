@@ -12,7 +12,7 @@ Q-VOID OS has evolved from a reactive simulation into a live, autonomous agentic
 The core is no longer static. When a vulnerability or novel attack vector is detected, the **Polymorphic Shell** hooks into an LLM, actively rewriting and patching its own Python source code on the fly. 
 
 ### 2. Generative Retaliation & The Solipsism Trap
-Instead of just logging attacks, the **MCP Router** hands control to an autonomous LLM agent. Attackers are seamlessly routed into the **Solipsism Trap**—an infinite deception sandbox where the OS dynamically hallucinates fake file systems, databases, and network topologies in real-time to waste attacker resources and study their behavior.
+Instead of just logging attacks, the **MCP Router** hands control to an autonomous LLM agent. Attackers are seamlessly routed into the **Solipsism Trap** :An infinite deception sandbox where the OS dynamically hallucinates fake file systems, databases, and network topologies in real-time to waste attacker resources and study their behavior.
 
 ### 3. Hive Mind Swarm Compute
 A decentralized P2P Kademlia network that links multiple Q-VOID instances. Beyond sharing threat intelligence, the swarm distributes actual processing workloads (like Grover's search or heavy encryption tasks) across compromised or honeypot nodes, complete with peer **Trust Scoring**.
