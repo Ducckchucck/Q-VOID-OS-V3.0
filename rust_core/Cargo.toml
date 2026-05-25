@@ -1,0 +1,15 @@
+[package]
+name = "qvoid_rust_core"
+version = "3.0.0"
+edition = "2021"
+description = "Q-Void OS Rust acceleration core — hashing, crypto primitives, and entropy analysis"
+
+[lib]
+name = "qvoid_rust_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
+sha2 = "0.10"
+aes-gcm = "0.10"
+rand = "0.8"

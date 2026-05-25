@@ -1,0 +1,50 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.venv/
+venv/
+env/
+QVoid_MutantAI/.venv/
+logs/*.log
+logs/trap_session_*.json
+precog/predator_brain.pkl
+precog/command_history.json
+examples/demo_report.json
+.codex-presentations/
+*.tmp
+*.bak
+
+# Keystore - NEVER commit private keys
+keystore/
+
+# GhostFS runtime data
+ghostfs_data/
+
+# Log files
+logs/
+
+# QPM installed modules (runtime)
+qpm_modules/
+
+# Rust build artifacts
+rust_core/target/
+
+# Generated reports
+QVOID_OS_Test_Report.*
+QVOID_OS_Test_Results.json
+QVOID_OS_Validation_Command_Deck.pptx
+
+# Binary/ML files
+*.pkl
+*.pcap
+
+# QVoid_MutantAI generated files
+QVoid_MutantAI/ddos_log.txt
+QVoid_MutantAI/prediction_results.csv
+QVoid_MutantAI/feature_columns.pkl
+QVoid_MutantAI/pack.pcap
